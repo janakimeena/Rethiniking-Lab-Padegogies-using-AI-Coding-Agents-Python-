@@ -1,0 +1,3 @@
+Problem statement:
+
+There are two typists : A and B. Typist A can type a word in ‘a’ seconds and the Typist B can type a word in ‘b’ seconds. Given a job of typing ‘n’ number of words in a web portal, Write an algorithm and the subsequent code to compute the total time taken by both the typists to type the given ‘n’ words if they divide the job in such a manner as to complete the job in the shortest time. Assume that all the words have equal number of letters and both the typists type simultaneously.
