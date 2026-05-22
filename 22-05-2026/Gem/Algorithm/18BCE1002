@@ -1,0 +1,15 @@
+Algorithm OptimalWorkDivision
+
+Input a, b, n
+
+wordsA ← (n * b) / (a + b)
+wordsB ← n - wordsA
+
+timeA ← wordsA * a
+timeB ← wordsB * b
+
+totalTime ← maximum(timeA, timeB)
+
+Print totalTime
+
+End Algorithm

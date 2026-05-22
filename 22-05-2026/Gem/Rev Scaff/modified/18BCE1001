@@ -1,0 +1,12 @@
+The company has imposed some additional constraints on the logs received. This is how the new system works.
+
+The factory receives event logs from two sensors. The logs can be merged only if both sensors share at least one common event ID.
+
+Processing rules:
+
+Check whether the two logs contain at least one common value.
+If no common value exists, print "Invalid".
+Otherwise:
+combine both logs,
+remove duplicate event IDs,
+sort the final list in ascending order.

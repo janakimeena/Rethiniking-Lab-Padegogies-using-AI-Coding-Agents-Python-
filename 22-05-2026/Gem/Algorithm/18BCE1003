@@ -1,0 +1,22 @@
+Algorithm GreedyTyping
+
+Input a, b, n
+
+timeA ← 0
+timeB ← 0
+
+For i ← 1 to n
+
+    If timeA ≤ timeB Then
+        timeA ← timeA + a
+    Else
+        timeB ← timeB + b
+    End If
+
+End For
+
+totalTime ← maximum(timeA, timeB)
+
+Print totalTime
+
+End Algorithm

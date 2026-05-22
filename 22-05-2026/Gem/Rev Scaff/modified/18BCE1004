@@ -1,0 +1,3 @@
+The company has imposed some additional constraints on the logs received. This is how the new system works.
+
+The system should keep only the event IDs that are present in both sensor logs and display them in sorted order.

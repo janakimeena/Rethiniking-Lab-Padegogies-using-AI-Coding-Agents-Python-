@@ -1,0 +1,11 @@
+The company has imposed some additional constraints on the logs received. This is how the new system works.
+
+Two sensors are considered synchronized only if at least one event is detected by both sensors.
+
+If synchronization succeeds:
+
+merge all unique events from both sensors,
+arrange them in increasing order,
+and generate the final consolidated log.
+
+If the sensors do not share any event IDs, return "Invalid".

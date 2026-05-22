@@ -1,0 +1,5 @@
+The company has imposed some additional constraints on the logs received. This is how the new system works.
+
+The system appends the second sensor log after the first sensor log while preserving the original order of all values.
+
+If both arrays contain at least one common element, the concatenated list is returned; otherwise print "Invalid".

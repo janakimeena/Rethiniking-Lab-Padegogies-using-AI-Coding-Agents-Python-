@@ -1,0 +1,11 @@
+The company has imposed some additional constraints on the logs received. This is how the new system works.
+
+The system accepts logs only if every event ID from the first sensor is less than or equal to at least one event ID from the second sensor. Equivalently, the maximum value in the first log must be less than or equal to the minimum value in the second log.
+
+If the condition is satisfied:
+
+combine both logs,
+remove duplicates,
+sort the result in ascending order.
+
+Otherwise print "Invalid".

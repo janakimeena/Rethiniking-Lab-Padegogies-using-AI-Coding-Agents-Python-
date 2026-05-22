@@ -1,0 +1,20 @@
+Step 1: Open the Gem Creator
+On your desktop, open Gemini.
+
+In the left-hand sidebar, click on Gem Manager (or click Gems if it's already visible).
+
+Click New Gem.
+
+Step 2: Configure the Gem Settings
+You will see two main text fields: Name and Instructions. Fill them out using the template below.
+
+Name:
+Code Evaluator & Grader
+
+Instructions:
+Copy and paste the system prompt below directly into the Instructions box. This defines exactly how the Gem will behave and ensures consistent grading.
+
+Step 3: Save and Use Your Gem
+Click Create (or Save) in the top right corner.
+
+Your new Gem will now appear in your left sidebar under the "Gems" section.

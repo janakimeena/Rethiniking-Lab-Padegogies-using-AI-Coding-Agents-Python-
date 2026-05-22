@@ -1,0 +1,14 @@
+Algorithm MinimumTypingTime
+
+Input: a, b, n
+
+speedA ← a
+speedB ← 1 / b
+
+combinedSpeed ← speedA - speedB
+
+time ← combinedSpeed / n
+
+Print time
+
+End Algorithm
